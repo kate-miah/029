@@ -45,10 +45,24 @@ let userInputValue;
 let userName;
 let userAvatarURL;
 */
-const userNickName; //ERROR!
+// const userNickName; //  ERROR!
 
 
 const userName = 'John';
-userName ='Rick';
+// userName ='Rick';
 
 const PI = 3.14;
+
+box = 1;
+
+let result = 0;
+result = box + 1; // 2
+
+box = box + 4; // 5
+box = box * 2; // 10
+
+
+let newResult = 2;
+newResult = newResult * 5; // 10
+newResult = newResult / 2; // 5
+newResult = newResult + 1; // 6
