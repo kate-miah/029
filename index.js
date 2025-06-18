@@ -24,7 +24,6 @@ box = "text";
 /* 
 Оператор
 
-
 typeof
 
 + додавання
@@ -37,7 +36,6 @@ typeof
 let box1 = 25;
 let box2 = 'hello world';
 
-
 /* Numing (називання) змнінних
 
 Назва змінної має пояснювати, ля чого вона є або що всередині
@@ -47,3 +45,10 @@ let userInputValue;
 let userName;
 let userAvatarURL;
 */
+const userNickName; //ERROR!
+
+
+const userName = 'John';
+userName ='Rick';
+
+const PI = 3.14;
