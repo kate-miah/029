@@ -66,3 +66,32 @@ let newResult = 2;
 newResult = newResult * 5; // 10
 newResult = newResult / 2; // 5
 newResult = newResult + 1; // 6
+
+//result = result +5;
+result += 5;
+//result = - 2;
+result - 2;
+//ressult = result * 4;
+result *= 4;
+//result = result / 2;
+result /= 2;
+
+
+/* Інкремент/Декремент*/
+
+let value = 0;
+//value = value + 1;
+value++; //Інкремент - збільшенні значення на 1
+value--; //Декремент - зменшення значення на 1
+//value = value - 1;
+
+//Посфікс (спочатку ім'я змінной, потім оператор)
+value++;
+value--;
+// Спочатку використовується значення змінної, а потім вікористовуєтьсяоперація збільшення/зменшення
+result = value++;
+
+//Префіксна форма (спочатку оператор, а потім ім'я змінної)
+++value;
+--value;
+result = ++value; //Спочатку збільшуємо на 1, а потім таке саме значення кладем в result
